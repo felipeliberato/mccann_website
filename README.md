@@ -1,4 +1,4 @@
-# Responsive Website Mccann Health 🚚
+# Responsive Website Mccann Health 
 
 - Website using HTML, Sass and JavaScript.
 - Developed first with the Mobile First methodology, then for desktop.
@@ -6,4 +6,4 @@
 
 
 
-![Delivery website](/mccannhealth.png)
+[Delivery website](/mccannhealth.png)
