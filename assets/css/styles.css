@@ -79,7 +79,6 @@ html {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--white);
@@ -140,7 +139,53 @@ img {
   gap: 1.5rem;
 }
 
-/*=============== ABOUT ===============*/ /*=============== CONTACT ===============*/ /*=============== APP ===============*/ /*=============== FOOTER ===============*/ /*=============== HEADER ===============*/ /*=============== HOME ===============*/ /*=============== MEDIA QUERIES ===============*/
+/*=============== ABOUT ===============*/ /*=============== CONTACT ===============*/ /*=============== APP ===============*/ /*=============== FOOTER ===============*/ /*=============== HEADER ===============*/ /*=============== HOME ===============*/
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home__color {
+  background-color: var(--purple-light);
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -9;
+}
+.home__logo img {
+  max-width: 300px;
+}
+.home__video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -10;
+  background-size: cover;
+}
+.home__more {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home__more i {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+/*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 /* For medium devices */
 /* For large devices */
