@@ -1,0 +1,78 @@
+/*=============== FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../../fonts/Futura-Bold.ttf')format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura';
+    src: url('../../fonts/Futura-Book.ttf')format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura';
+    src: url('../../fonts/Futura-Light.ttf')format('truetype');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    --header-height: 3rem;
+
+    /*========== Colors ==========*/
+    --black: #000000;
+    --white: #ffffff;
+    --purple-light: #d5d5f2;
+    --yellow-light: #f7dbad;
+    --green-light: #c3e3e2;
+    --red-light: #e5bec0;
+    --blue-light: #b2d7eb;
+    --purple-dark: #3F2A5A;
+    --yellow-dark: #A76D12;
+    --green-dark: #0D5968;
+    --red-dark: #973161;
+    --blue-dark: #005692;
+
+
+    /*========== Font and typography ==========*/
+    --body-font: 'Futura', Arial, sans-serif;
+
+    --biggest-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    // Responsive typography
+    @media screen and (min-width: 968px) {
+        --biggest-font-size: 3rem;
+        --h2-font-size: 1.75rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+    }
+
+    /*========== Font weight ==========*/
+    --font-light: 100;
+    --font-book: 400;
+    --font-bold: 700;
+
+    /*========== Margenes ==========*/
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
