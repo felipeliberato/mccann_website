@@ -1,0 +1,28 @@
+button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    background-color: transparent;
+    border: 5px solid var(--white);
+    border-radius: 50px;
+    font-size: 1.5rem;
+    padding: 20px 60px;  
+    text-transform: uppercase; 
+    i{
+        margin-left: 10px;
+        font-size: 2rem;
+    }     
+}
+.btn{
+    color: var(--green-dark);
+    font-size: 1.5rem;  
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    i{
+        margin-left: 10px;
+        font-size: 2rem;
+    }
+}

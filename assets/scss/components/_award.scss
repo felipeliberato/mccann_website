@@ -1,0 +1,49 @@
+/*=============== AWARD ===============*/
+.award{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 70vh;
+        width: 100%;
+        span{
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+        h2{
+            position: relative;
+            font-size: 4rem;
+            text-transform: uppercase;
+            &:after{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: -1;
+                content: "";
+                width: 500px;
+                height: 100px;
+                background-color: var(--yellow-light);
+            }
+        }
+    }
+    &__types{
+        height: 30vh;
+        width: 100%;
+        background-color: var(--yellow-light);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            width: 200px;
+            height: 150px;
+        }
+    }
+}

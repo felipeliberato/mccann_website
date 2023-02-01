@@ -1,0 +1,19 @@
+/*=============== CLIENTS ===============*/
+.clients{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--red-dark);
+    .title-section{
+        color: var(--white);
+    }
+    &__logos{
+        padding-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 100px;
+    }
+}

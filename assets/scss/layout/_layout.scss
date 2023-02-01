@@ -25,12 +25,20 @@
 
 /*=============== LAYOUT ===============*/
 .container{
-    max-width: 968px;
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .grid{
     display: grid;
     gap: 1.5rem;
+}
+
+.title-section{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.title-btn{
+    font-size: 2rem;
 }

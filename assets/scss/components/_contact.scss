@@ -1,1 +1,69 @@
 /*=============== CONTACT ===============*/
+.contact {
+    height: 100vh;
+    width: 100%;    
+    display: flex;
+    &__text{
+    background-color: var(--purple-dark);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: var(--white);
+    padding: 200px 120px;
+    }
+    img{
+        width: 300px;
+    }    
+    h6{
+        padding-top: 300px;
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+    }
+    p{
+        font-size: .9rem;
+        letter-spacing: 2px;
+    }
+    span{
+        padding-top: 80px;
+        font-size: 1rem;
+    }
+    &__form{
+        background-color: var(--purple-light);
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        color: var(--black);
+        padding: 200px 120px;
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 50px;
+            width: 100%;
+            input{
+                font-size: 1.2rem;
+                color: var(--purple-dark);
+                margin-bottom: 20px;
+                width: 100%;
+                border: none;
+                background-color: transparent;
+                padding: 10px 20px;
+                border-bottom: solid 2px var(--purple-dark);
+            }
+        }
+        h3{
+            color: var(--purple-dark);
+            margin-bottom: 50px;
+        }
+    }
+    button{
+        border-color: var(--purple-dark);
+        color: var(--purple-dark);
+    }
+
+}
